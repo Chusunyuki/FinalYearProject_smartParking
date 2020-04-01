@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/history/history",
+    "pages/home/home",
+    
+    "pages/star/star",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,22 @@
+<!--pages/history/history.wxml-->
+<view>
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duartion="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+      <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+</swiper>
+
+<view class="userinfo1">
+  <image class="Bud_parking" src="../../images/logo.png" ></image>
+</view>
+
+</view>
+
+<!--<view class="userinfo">
+      <view bindtap="choose_image" >
+      <button type="primary" hover-class="button-hover" >扫码停车</button>
+      </view>
+
+  </view>-->
